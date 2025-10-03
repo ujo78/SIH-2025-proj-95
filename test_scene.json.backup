@@ -1,0 +1,99 @@
+{
+  "road_network": {
+    "nodes": [
+      {
+        "id": 1,
+        "x": 0,
+        "y": 0,
+        "type": "intersection"
+      },
+      {
+        "id": 2,
+        "x": 100,
+        "y": 0,
+        "type": "intersection"
+      },
+      {
+        "id": 3,
+        "x": 100,
+        "y": 100,
+        "type": "intersection"
+      },
+      {
+        "id": 4,
+        "x": 0,
+        "y": 100,
+        "type": "intersection"
+      }
+    ],
+    "edges": [
+      {
+        "source": 1,
+        "target": 2,
+        "length": 100,
+        "lanes": 2,
+        "type": "primary"
+      },
+      {
+        "source": 2,
+        "target": 3,
+        "length": 100,
+        "lanes": 2,
+        "type": "primary"
+      },
+      {
+        "source": 3,
+        "target": 4,
+        "length": 100,
+        "lanes": 2,
+        "type": "primary"
+      },
+      {
+        "source": 4,
+        "target": 1,
+        "length": 100,
+        "lanes": 2,
+        "type": "primary"
+      }
+    ]
+  },
+  "vehicle_paths": [
+    {
+      "vehicle_id": 1,
+      "vehicle_type": "car",
+      "waypoints": [
+        {
+          "x": 0,
+          "y": 0,
+          "timestamp": 0,
+          "speed": 15,
+          "heading": 0
+        },
+        {
+          "x": 50,
+          "y": 0,
+          "timestamp": 3.33,
+          "speed": 15,
+          "heading": 0
+        },
+        {
+          "x": 100,
+          "y": 0,
+          "timestamp": 6.67,
+          "speed": 15,
+          "heading": 0
+        }
+      ]
+    }
+  ],
+  "scenario_config": {
+    "simulation_duration": 60.0,
+    "time_step": 0.1,
+    "weather": "clear",
+    "traffic_density": "medium"
+  },
+  "metadata": {
+    "coordinate_system": "local",
+    "version": "1.0"
+  }
+}
