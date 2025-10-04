@@ -1,0 +1,53 @@
+2025-10-03 18:56:54,615 - TrafficSimulation - INFO - __init__:163 - Error logging system initialized
+2025-10-03 18:56:54,616 - TrafficSimulation - INFO - log_info:207 - [ErrorHandler] Error handling system initialized
+2025-10-03 18:56:54,618 - TrafficSimulation - WARNING - log_error:178 - [system] TestComponent: Test error
+2025-10-03 18:56:54,618 - TrafficSimulation - DEBUG - log_error:184 - Error details: Traceback (most recent call last):
+  File "C:\Users\rajra\Desktop\map_proj\test_system_robustness.py", line 258, in test_error_reporting
+    raise ValueError("Test error")
+ValueError: Test error
+
+2025-10-03 18:56:54,619 - TrafficSimulation - DEBUG - log_error:185 - Context: {}
+2025-10-03 18:56:54,628 - TrafficSimulation - INFO - __init__:163 - Error logging system initialized
+2025-10-03 18:56:54,629 - TrafficSimulation - INFO - log_info:207 - [ErrorHandler] Error handling system initialized
+2025-10-03 18:56:54,630 - TrafficSimulation - WARNING - log_error:178 - [system] Component0: Test error 0
+2025-10-03 18:56:54,631 - TrafficSimulation - DEBUG - log_error:184 - Error details: Traceback (most recent call last):
+  File "C:\Users\rajra\Desktop\map_proj\test_system_robustness.py", line 311, in test_error_statistics
+    raise ValueError(f"Test error {i}")
+ValueError: Test error 0
+
+2025-10-03 18:56:54,631 - TrafficSimulation - DEBUG - log_error:185 - Context: {}
+2025-10-03 18:56:54,634 - TrafficSimulation - INFO - __init__:163 - Error logging system initialized
+2025-10-03 18:56:54,635 - TrafficSimulation - INFO - log_info:207 - [ErrorHandler] Error handling system initialized
+2025-10-03 18:56:54,637 - TrafficSimulation - INFO - __init__:163 - Error logging system initialized
+2025-10-03 18:56:54,638 - TrafficSimulation - INFO - log_info:207 - [ErrorHandler] Error handling system initialized
+2025-10-03 18:56:54,638 - TrafficSimulation - ERROR - log_error:176 - [system] Component1: Test error 1
+2025-10-03 18:56:54,639 - TrafficSimulation - DEBUG - log_error:184 - Error details: Traceback (most recent call last):
+  File "C:\Users\rajra\Desktop\map_proj\test_system_robustness.py", line 291, in test_system_health_monitoring
+    raise RuntimeError("Test error 1")
+RuntimeError: Test error 1
+
+2025-10-03 18:56:54,639 - TrafficSimulation - DEBUG - log_error:185 - Context: {}
+2025-10-03 18:56:54,648 - TrafficSimulation - INFO - __init__:163 - Error logging system initialized
+2025-10-03 18:56:54,648 - TrafficSimulation - INFO - log_info:207 - [ErrorHandler] Error handling system initialized
+2025-10-03 18:56:54,652 - TrafficSimulation - INFO - __init__:163 - Error logging system initialized
+2025-10-03 18:56:54,652 - TrafficSimulation - INFO - log_info:207 - [ErrorHandler] Error handling system initialized
+2025-10-03 18:56:54,657 - TrafficSimulation - INFO - __init__:163 - Error logging system initialized
+2025-10-03 18:56:54,658 - TrafficSimulation - INFO - log_info:207 - [ErrorHandler] Error handling system initialized
+2025-10-03 18:56:54,667 - TrafficSimulation - INFO - log_info:207 - [ErrorHandler] Successfully restored from checkpoint snapshot_20251003_185654
+2025-10-03 18:56:54,670 - TrafficSimulation - INFO - __init__:163 - Error logging system initialized
+2025-10-03 18:56:54,671 - TrafficSimulation - INFO - log_info:207 - [ErrorHandler] Error handling system initialized
+2025-10-03 18:56:54,674 - TrafficSimulation - INFO - __init__:163 - Error logging system initialized
+2025-10-03 18:56:54,675 - TrafficSimulation - INFO - log_info:207 - [ErrorHandler] Error handling system initialized
+2025-10-03 18:56:54,677 - TrafficSimulation - ERROR - log_error:176 - [system] TestComponent: Test error
+2025-10-03 18:56:54,677 - TrafficSimulation - DEBUG - log_error:184 - Error details: Traceback (most recent call last):
+  File "C:\Users\rajra\Desktop\map_proj\enhanced_visualization\system_robustness.py", line 243, in error_context
+    yield
+  File "C:\Users\rajra\Desktop\map_proj\test_system_robustness.py", line 410, in test_error_context_manager
+    raise ValueError("Test error")
+ValueError: Test error
+
+2025-10-03 18:56:54,677 - TrafficSimulation - DEBUG - log_error:185 - Context: {}
+2025-10-03 18:56:54,682 - TrafficSimulation - INFO - __init__:163 - Error logging system initialized
+2025-10-03 18:56:54,682 - TrafficSimulation - INFO - log_info:207 - [ErrorHandler] Error handling system initialized
+2025-10-03 18:56:54,685 - TrafficSimulation - INFO - __init__:163 - Error logging system initialized
+2025-10-03 18:56:54,686 - TrafficSimulation - INFO - log_info:207 - [ErrorHandler] Error handling system initialized
